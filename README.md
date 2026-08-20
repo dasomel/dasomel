@@ -1,24 +1,8 @@
-# 이기하 · dasomel
+# dasomel
 
 **Cloud Native Platform Engineer · Open Source Engineer · Adjunct Professor**
 
-Kubernetes, Platform Engineering, AI/Data Platform, DevOps 및 Cloud Native Infrastructure를 중심으로 엔터프라이즈 플랫폼을 설계·구축·운영하고 있습니다.
-
 I am a Cloud Native Platform Engineer with 20+ years of IT experience, focused on Kubernetes, Platform Engineering, AI/Data Platform, DevOps, and Cloud Native Infrastructure.
-
----
-
-## 🇰🇷 소개 | About Me
-
-### 한국어
-
-Cloud Native Platform Engineer로서 Kubernetes 기반 플랫폼, IDP, DevOps Platform, Data Platform, AI Platform 및 GPU Infrastructure를 설계·구축·운영해 왔습니다.
-
-특히 **문제 정의 → 설계 → 구현 → 검증 → 장애 분석 → 회귀 테스트 → 자동화 → 문서화**로 이어지는 Engineering Loop를 중요하게 생각합니다.
-
-최근에는 오픈소스 프로젝트를 직접 개발·운영하며 Kubernetes와 Cloud Native Infrastructure를 실제로 검증하고, Incident와 Lesson을 Regression Test와 자동화로 연결하는 Engineering 방식을 발전시키고 있습니다.
-
-### English
 
 I design and build reliable, developer-friendly platforms that reduce operational complexity and enable engineers to focus on delivering products.
 
@@ -26,9 +10,11 @@ My engineering approach emphasizes a continuous loop of **problem definition →
 
 I actively apply this approach to open-source projects focused on Kubernetes and Cloud Native infrastructure.
 
+🇰🇷 **한국어:** [README.ko.md](README.ko.md)
+
 ---
 
-## 🛠️ Core Areas | 주요 분야
+## 🛠️ Core Areas
 
 - Kubernetes & Platform Engineering
 - Internal Developer Platform (IDP)
@@ -45,76 +31,71 @@ I actively apply this approach to open-source projects focused on Kubernetes and
 
 ---
 
-## 🚀 Selected Open Source Projects | 주요 프로젝트
+## 🚀 Selected Open Source Projects
 
 ### [Narwhal](https://github.com/dasomel/narwhal)
-
 **Kubernetes Internal Developer Platform (IDP)**
 
-HA Kubernetes, GitOps, Keycloak SSO/RBAC, Cilium, Istio Ambient, Observability, Security, IDP Portal 및 자동화된 Cluster/SSO 검증을 하나의 플랫폼으로 연결하는 프로젝트입니다.
+HA Kubernetes, GitOps, Keycloak SSO/RBAC, Cilium, Istio Ambient, Observability, Security, IDP Portal, and automated cluster/SSO validation in one platform.
 
 ### [KubeMetal](https://github.com/dasomel/kubemetal)
-
 **Apple Silicon MLOps Platform**
 
-Apple Silicon 환경에서 Kubernetes 기반 ML 환경과 호스트 GPU/MLX 연산을 결합하여 모델 관리, 파인튜닝 및 서빙을 실험할 수 있는 프로젝트입니다.
+An experimental MLOps environment combining Kubernetes-based ML services with host-side GPU/MLX compute on Apple Silicon.
 
 ### [K-PaaS](https://github.com/dasomel/k-paas)
-
 **Local K-PaaS Installation & Development Environment**
 
-Local 환경에서 K-PaaS를 경량으로 설치하고 실습·검증할 수 있도록 자동화한 프로젝트입니다.
+Automation for installing, learning, and validating K-PaaS in local environments.
 
 ### [NFS Quota Agent](https://github.com/dasomel/nfs-quota-agent)
-
 **Kubernetes NFS Quota Automation**
 
-XFS/ext4 기반 파일시스템의 quota를 Kubernetes PV와 연계하여 자동 관리하는 Go 기반 프로젝트입니다.
+A Go-based project for automating filesystem quota management and integrating quotas with Kubernetes PVs.
 
 ### [Kube Ready Box](https://github.com/dasomel/kube-ready-box)
-
 **Kubernetes-Ready Vagrant Images**
 
-Kubernetes 노드 환경을 빠르게 구성할 수 있도록 OS 튜닝, 파일시스템 및 멀티 아키텍처 환경을 자동화한 프로젝트입니다.
+Automated Kubernetes node images covering OS tuning, filesystem configuration, and multi-architecture environments.
 
 ---
 
-## 🔬 Engineering Philosophy | Engineering 관점
+## 🔬 Engineering Philosophy
 
 > **OSS is not only about writing code. It is about building a system that can be installed, operated, verified, evolved, and trusted.**
 
-오픈소스 프로젝트의 가치는 코드의 양이나 commit 수만으로 결정되지 않는다고 생각합니다.
+I believe the value of an open-source project is not measured only by lines of code or commit counts.
 
-- 문제를 명확하게 정의하고
-- 실제 환경에서 동작시키고
-- 실패를 기록하고
-- 원인을 분석하고
-- Regression으로 검증하고
-- 자동화하고
-- 다른 사람이 사용할 수 있도록 문서화하는 것
+It is about the complete engineering loop:
 
-이 전체 과정이 OSS Engineering이라고 생각합니다.
+- Define the problem clearly
+- Make it work in a real environment
+- Record failures and incidents
+- Analyze root causes
+- Turn lessons into regression tests
+- Automate repeatable operations
+- Document the project so others can use it
 
 ---
 
 ## 🤖 AI-assisted Engineering
 
-Claude Code 등 AI-assisted Engineering 도구를 개발, 테스트, Troubleshooting, 문서화 및 오픈소스 유지보수에 적극적으로 활용하고 있습니다.
+I actively use AI-assisted engineering tools such as Claude Code for development, testing, troubleshooting, documentation, and open-source maintenance.
 
-AI가 코드를 생성하는 것 자체보다, **AI를 Engineering Loop에 어떻게 통합하여 품질과 생산성을 함께 높이는가**에 관심을 가지고 있습니다.
+I am particularly interested not simply in AI-generated code, but in **how AI can be integrated into the engineering loop while improving both quality and productivity**.
 
 ---
 
-## 🎓 Community & Education | 커뮤니티 & 교육
+## 🎓 Community & Education
 
-- 한국공학대학교 겸임교수 — SW 프레임워크 이론 및 실습
-- 10년 이상 Open Source / Cloud Native 커뮤니티 활동
+- Adjunct Professor at Tech University of Korea — Software Frameworks
+- 10+ years of Open Source / Cloud Native community activities
 - 30+ technical talks and seminars
 - Open Source community leadership
 
 ---
 
-## 🔗 Links | 링크
+## 🔗 Links
 
 - **GitHub:** https://github.com/dasomel
 - **Engineering & OSS:** https://cne.io.kr
