@@ -33,30 +33,50 @@ I actively apply this approach to open-source projects focused on Kubernetes and
 
 ## 🚀 Selected Open Source Projects
 
+### [OpenForge](https://github.com/dasomel/openforge)
+**Open Source Project Blueprint & Engineering Standards**
+
+A reusable engineering foundation, standards, templates, and portfolio governance for creating, evolving, deploying, and maintaining high-quality OSS projects.
+
+### [Siqoq](https://github.com/dasomel/siqoq)
+**Simulation-first Infrastructure for Physical AI**
+
+An open-source playground that starts with simulation and virtual sensors, then moves the same AI workloads to cameras, edge devices, and robots.
+
+### [Kube Ready Box](https://github.com/dasomel/kube-ready-box)
+**Kubernetes-Ready Ubuntu Vagrant Boxes**
+
+Automated multi-architecture Ubuntu Vagrant boxes with Kubernetes prerequisites, OS-level optimizations, and ext4/XFS filesystem variants.
+
 ### [Narwhal](https://github.com/dasomel/narwhal)
 **Kubernetes Internal Developer Platform (IDP)**
 
-HA Kubernetes, GitOps, Keycloak SSO/RBAC, Cilium, Istio Ambient, Observability, Security, IDP Portal, and automated cluster/SSO validation in one platform.
+Reproducible Kubernetes IDP integrating GitOps, IAM, networking, observability, security, storage, backup, and automated regression validation across ARM64/AMD64, cloud, on-premises, and air-gapped environments.
 
-### [KubeMetal](https://github.com/dasomel/kubemetal)
-**Apple Silicon MLOps Platform**
+### [Narwhal Portal](https://github.com/dasomel/narwhal-portal)
+**Management Portal for the Narwhal IDP**
 
-An experimental MLOps environment combining Kubernetes-based ML services with host-side GPU/MLX compute on Apple Silicon.
-
-### [K-PaaS](https://github.com/dasomel/k-paas)
-**Local K-PaaS Installation & Development Environment**
-
-Automation for installing, learning, and validating K-PaaS in local environments.
+A Next.js management portal for dashboard, onboarding, application catalog, nodes, cost, compliance, security, governance, and day-2 operations.
 
 ### [NFS Quota Agent](https://github.com/dasomel/nfs-quota-agent)
-**Kubernetes NFS Quota Automation**
+**Filesystem Quotas for Kubernetes NFS PersistentVolumes**
 
-A Go-based project for automating filesystem quota management and integrating quotas with Kubernetes PVs.
+An agent that enforces project quotas for NFS-backed PVs on XFS, ext4, and Btrfs filesystems.
 
-### [Kube Ready Box](https://github.com/dasomel/kube-ready-box)
-**Kubernetes-Ready Vagrant Images**
+### [Beluga](https://github.com/dasomel/beluga)
+**Self-hosted Kubernetes Data Platform**
 
-Automated Kubernetes node images covering OS tuning, filesystem configuration, and multi-architecture environments.
+A local VM-based data platform deployed with Vagrant, Helm, and ArgoCD: Kafka/CDC, Flink, Iceberg, Trino/Superset, and Airflow.
+
+### [Beluga Manager](https://github.com/dasomel/beluga-manager)
+**Unified Control Plane for the Beluga Data Platform**
+
+A management console that correlates component APIs into platform-level concepts such as pipelines, data assets, services, and operations.
+
+### [LDAPium](https://github.com/dasomel/ldapium)
+**Maintained OpenLDAP Stack for Kubernetes**
+
+An OpenLDAP server image compiled from upstream source, a management UI, and a Helm chart for deploying LDAP on Kubernetes.
 
 ---
 

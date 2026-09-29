@@ -31,30 +31,50 @@ Cloud Native Platform Engineer로서 20년 이상의 IT 경력을 바탕으로 K
 
 ## 🚀 주요 Open Source 프로젝트
 
+### [OpenForge](https://github.com/dasomel/openforge)
+**Open Source Project Blueprint & Engineering Standards**
+
+고품질 오픈소스 프로젝트의 생성·발전·배포·유지보수를 위한 공통 Blueprint, Engineering Standards, 템플릿 및 포트폴리오 거버넌스입니다.
+
+### [Siqoq](https://github.com/dasomel/siqoq)
+**Simulation-first Infrastructure for Physical AI**
+
+시뮬레이션과 가상 센서에서 시작해 카메라, Edge 디바이스, 로봇으로 동일한 AI 워크로드를 확장하는 Physical AI 오픈소스 실험 인프라입니다.
+
+### [Kube Ready Box](https://github.com/dasomel/kube-ready-box)
+**Kubernetes-Ready Ubuntu Vagrant Boxes**
+
+Kubernetes 사전 요구사항, OS 최적화, ext4/XFS 파일시스템 변형을 포함한 멀티 아키텍처 Ubuntu Vagrant Box를 자동으로 빌드합니다.
+
 ### [Narwhal](https://github.com/dasomel/narwhal)
 **Kubernetes Internal Developer Platform (IDP)**
 
-HA Kubernetes, GitOps, Keycloak SSO/RBAC, Cilium, Istio Ambient, Observability, Security, IDP Portal 및 자동화된 Cluster/SSO 검증을 하나의 플랫폼으로 연결하는 프로젝트입니다.
+GitOps, IAM, 네트워킹, Observability, 보안, 스토리지, 백업 및 자동화된 회귀 검증을 통합한 재현 가능한 Kubernetes IDP입니다. ARM64/AMD64, Cloud, On-premises 및 Air-gapped 환경을 지원합니다.
 
-### [KubeMetal](https://github.com/dasomel/kubemetal)
-**Apple Silicon MLOps Platform**
+### [Narwhal Portal](https://github.com/dasomel/narwhal-portal)
+**Narwhal IDP Management Portal**
 
-Apple Silicon 환경에서 Kubernetes 기반 ML 환경과 호스트 GPU/MLX 연산을 결합하여 모델 관리, 파인튜닝 및 서빙을 실험할 수 있는 프로젝트입니다.
-
-### [K-PaaS](https://github.com/dasomel/k-paas)
-**Local K-PaaS Installation & Development Environment**
-
-Local 환경에서 K-PaaS를 설치하고 실습·검증할 수 있도록 자동화한 프로젝트입니다.
+Dashboard, 온보딩, 애플리케이션 카탈로그, 노드, 비용, Compliance, 보안, Governance 및 Day-2 운영 기능을 제공하는 Next.js 관리 포털입니다.
 
 ### [NFS Quota Agent](https://github.com/dasomel/nfs-quota-agent)
-**Kubernetes NFS Quota Automation**
+**Kubernetes NFS PersistentVolume 파일시스템 Quota**
 
-XFS/ext4 기반 파일시스템의 quota를 Kubernetes PV와 연계하여 자동 관리하는 Go 기반 프로젝트입니다.
+NFS 기반 PV에 대해 XFS, ext4, Btrfs 파일시스템의 project quota를 적용하는 Kubernetes agent입니다.
 
-### [Kube Ready Box](https://github.com/dasomel/kube-ready-box)
-**Kubernetes-Ready Vagrant Images**
+### [Beluga](https://github.com/dasomel/beluga)
+**Self-hosted Kubernetes Data Platform**
 
-Kubernetes 노드 환경을 빠르게 구성할 수 있도록 OS 튜닝, 파일시스템 및 멀티 아키텍처 환경을 자동화한 프로젝트입니다.
+Vagrant, Helm, ArgoCD로 배포하는 로컬 VM 기반 데이터 플랫폼입니다. Kafka/CDC, Flink, Iceberg, Trino/Superset, Airflow를 포함합니다.
+
+### [Beluga Manager](https://github.com/dasomel/beluga-manager)
+**Beluga Data Platform 통합 Control Plane**
+
+각 구성 요소의 API를 연결하여 Pipeline, Data Asset, Service, Operation과 같은 플랫폼 수준의 개념과 통합 관리 경험을 제공합니다.
+
+### [LDAPium](https://github.com/dasomel/ldapium)
+**Kubernetes용 OpenLDAP Stack**
+
+Upstream 소스에서 빌드한 OpenLDAP 서버 이미지, 관리 UI, Helm chart를 제공하는 Kubernetes용 LDAP 프로젝트입니다.
 
 ---
 
